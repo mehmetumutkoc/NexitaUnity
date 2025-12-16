@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 6488211d8b6269e4ab80e9c38aca26bf
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: U3Bitumen2
+    second: {fileID: 2800000, guid: 5f801f51123597940ba72fc0df461144, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: U3Brick1
+    second: {fileID: 2800000, guid: 97a093134bff43a46b7c06c6326103cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: U3Brick1_2
+    second: {fileID: 2800000, guid: 321028f8bc3dd694b9c00456bdec0cee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: U3Brick5
+    second: {fileID: 2800000, guid: 9c22a62dfb131bf4ead705d1de250ed9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: U3Ceilinglight
+    second: {fileID: 2800000, guid: dd9492789a9cabd4ca4dbc3405276bcb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Acunit2
+    second: {fileID: 2800000, guid: 8f9ce91b260aba045817b8dfc2f2f045, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3ArchWindows
+    second: {fileID: 2800000, guid: e29d887d1d310984ea2a3b0d6ebf2c09, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bark1
+    second: {fileID: 2800000, guid: 5dd3760e757e8574da6cc6b15d7a98c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bark2
+    second: {fileID: 2800000, guid: 2d3a53d66fdeec8419fae4c7a5b9b7c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Beam
+    second: {fileID: 2800000, guid: 8d4374521c2735b46a7b4e609c759c23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bench
+    second: {fileID: 2800000, guid: 687127065dbd24441ae805b6aceb0f57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bldg11
+    second: {fileID: 2800000, guid: 35bfdd6f35c200c41b3bb9a77a4f4b04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bldg12
+    second: {fileID: 2800000, guid: 15853d69a2f099046a191844bf8fab7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bldg13
+    second: {fileID: 2800000, guid: 08bf317d5ada91643a0acd0e911bc11d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bldg17
+    second: {fileID: 2800000, guid: 5f4f54773f94d734a8c93ba42a9f9d1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bldg22
+    second: {fileID: 2800000, guid: c985f486a543ed548a2588433c67e832, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bldg27
+    second: {fileID: 2800000, guid: 439290d94415a4645ae001ce279f1551, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bldg3
+    second: {fileID: 2800000, guid: 5e4e530e288187e4c95ea987fafe4f5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bldg5
+    second: {fileID: 2800000, guid: 46d4bbb7056dbec43acb10987bcde98a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bldg52
+    second: {fileID: 2800000, guid: ac68f9eed08ff7e4793c0136b01a06df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Bldg7
+    second: {fileID: 2800000, guid: 84eebcbfe8912b74fa9edce4ae4e8fc3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3BldgGrp1
+    second: {fileID: 2800000, guid: eb8745675bed058428a7f2342738b0d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Brick3
+    second: {fileID: 2800000, guid: abbaafc520191364881bed77e132446f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Brick7
+    second: {fileID: 2800000, guid: 10fd42d2a6eede84996175359d281367, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Crete1
+    second: {fileID: 2800000, guid: 79ef8b7abb67b7547aff83f0a6c8b9b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Crete2
+    second: {fileID: 2800000, guid: 6a0546a6cd3b05841995060bf0d8ef03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Crete3
+    second: {fileID: 2800000, guid: 48cbd0cda25a57a4fa1c7cd87d7c2170, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3DecoScreen
+    second: {fileID: 2800000, guid: 59b9add4768f98d4d8e81f44789eef09, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3DirtTile1
+    second: {fileID: 2800000, guid: e7760d18da7b5de4691423076ee2149d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Doors1
+    second: {fileID: 2800000, guid: 577260df8993ac848bbd02b31bdcf3fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Doors3
+    second: {fileID: 2800000, guid: 9f833c436a6d37946bf5f0778305d1ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Dumpster2
+    second: {fileID: 2800000, guid: e1b3e69d3a92680419fa6ae498e91067, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Dumpster3
+    second: {fileID: 2800000, guid: 12ba20b1ac7c8cd4a93595922a479167, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3FallenLeaves
+    second: {fileID: 2800000, guid: dc1208fe4c09ad444b8f2ac511c2f4bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3FireEscape1
+    second: {fileID: 2800000, guid: d03f5c5d1951f134aad03e1d42e8ee74, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Flags1
+    second: {fileID: 2800000, guid: bed3edae020513f428ad833a2cd78c1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Grate
+    second: {fileID: 2800000, guid: 5ef54d4318d09e344ae7f4da61285ba8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Grunge1
+    second: {fileID: 2800000, guid: 2b91466cf2afa2942911c4759f230637, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Laundry
+    second: {fileID: 2800000, guid: f7eb6ecefd75e1346ac65c8f7eed9a8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Leaf01
+    second: {fileID: 2800000, guid: 841d56d356e48544fa7a5a7c3482b07e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Leaf02
+    second: {fileID: 2800000, guid: 74851da61ea19ae43bc21603d5dc6b7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3LightSquare
+    second: {fileID: 2800000, guid: 57e8caab98510ed4f95c1d7b3c39e4a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Marble1
+    second: {fileID: 2800000, guid: 1299ed5c22f790147ae949de67673fb0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3MetalGalv
+    second: {fileID: 2800000, guid: b2d8e4951fa20bf4583e5c859c14870c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3MetalRust
+    second: {fileID: 2800000, guid: 5392b767c6dbe4b44af411d6516185b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Panel1
+    second: {fileID: 2800000, guid: 47daf490e29723d4aab05c08b485513b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Panel12
+    second: {fileID: 2800000, guid: 889cd54011e27a64d98945ee2fd97d7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Panel2
+    second: {fileID: 2800000, guid: 30ee318ec39d02d418fd82af27bd9c8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Panel3
+    second: {fileID: 2800000, guid: ba39a302a363fa249ac6d47656214833, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Paving3
+    second: {fileID: 2800000, guid: d25facd280fd3e94a9094d7e93428d37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Paving4
+    second: {fileID: 2800000, guid: 5c9165a312411c44cb7ee256870d72f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Paving6
+    second: {fileID: 2800000, guid: 24de3808f13b85743babffeb6ec43a3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Phone
+    second: {fileID: 2800000, guid: 9ff20699fde72614abf1403ad61cf1c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Pipes
+    second: {fileID: 2800000, guid: d5d680a9dde762c459d2559e23ae7ec0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3PwrBox
+    second: {fileID: 2800000, guid: 70dfb79fca2d719448b02e7eb5119963, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3RedCarpet
+    second: {fileID: 2800000, guid: 03ea7d0bd0e87a94f9126d8a07d4dd83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3RoadCrnr
+    second: {fileID: 2800000, guid: bdf23d361d156df40a39b6f090aeb06f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3RoadEdge
+    second: {fileID: 2800000, guid: 74cc53724a9535a439c40e72c901ca32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3RoundLight
+    second: {fileID: 2800000, guid: ba27700976e700449838aa2c73c320ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Sewer3
+    second: {fileID: 2800000, guid: 2b5f2be8749df1746941c6ace3cb1fa3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Shops1
+    second: {fileID: 2800000, guid: fd4e98412ac356d43afeb743f532c1b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Shops2
+    second: {fileID: 2800000, guid: 771967c2ea262b24c9b420a65320c241, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Shops4
+    second: {fileID: 2800000, guid: fb831e466be9fe54b99484cd9cc7d203, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Shops5
+    second: {fileID: 2800000, guid: 1f5866a6eead36c4f9b43347bcaee351, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Signs1
+    second: {fileID: 2800000, guid: 1a2546789d69d9f41a5b012d337ca327, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Signs2
+    second: {fileID: 2800000, guid: 48f6dfb8cc8e8804fab7b970033534db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Signs3
+    second: {fileID: 2800000, guid: ebb21cdf1744baa45a9e16b2fbbec3f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Signs5
+    second: {fileID: 2800000, guid: 707c7f4dfc9004d4cb56f7f8bf15ce7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Signs7
+    second: {fileID: 2800000, guid: 2aba731c337d6eb44825132166ad6fd4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Signs9
+    second: {fileID: 2800000, guid: 74df3ade88782f24884b858947a27def, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Skylight
+    second: {fileID: 2800000, guid: 05bc16daea99744499e4433cc183237c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3StreetBulbs
+    second: {fileID: 2800000, guid: 275b7a3fe6ba4b54cb17cdfd0e3ad933, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Streetlights
+    second: {fileID: 2800000, guid: b2097e301dad7cb4d8a34cd415a1b171, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3SubWay
+    second: {fileID: 2800000, guid: 0668a43e4bc1c8f479056e02c72121ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3SubWayTile
+    second: {fileID: 2800000, guid: 21cadc8b268d3f84ca92d15179f1b475, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3TarmacTile1
+    second: {fileID: 2800000, guid: c3f2569c9fba5534fa88c60eba6d75c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3TarmacTile2
+    second: {fileID: 2800000, guid: 581b12262895dee43be206f791a3c712, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Tile3
+    second: {fileID: 2800000, guid: f26040a153f400c47a6ab546121259f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Tower
+    second: {fileID: 2800000, guid: 2895a7cdff1ab36448d0fcad01c861ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3TreeBarrier
+    second: {fileID: 2800000, guid: bdbc43cc736b9a143893c00c435c6c82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Vending1
+    second: {fileID: 2800000, guid: ebda45576be124348b85e92855d5893e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Vents1
+    second: {fileID: 2800000, guid: 51e0a39c9275c0c459fc46bd0d43142e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Vents2
+    second: {fileID: 2800000, guid: 101f3ee795e85a843ae585ed03d40416, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Vents3
+    second: {fileID: 2800000, guid: 649e2b414672e274ebb6715be48e44b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Wall1
+    second: {fileID: 2800000, guid: 893367a67683ac648bbe0e3c371fcab7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3Windows5
+    second: {fileID: 2800000, guid: 1836080da8ca5c74d8959dba7f584ccc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3WireA
+    second: {fileID: 2800000, guid: dc63d0d95d79dfb4da913ba91fb6fb5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3boxes
+    second: {fileID: 2800000, guid: 12a8c8f773f078244b726e21ba6f9149, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3free1
+    second: {fileID: 2800000, guid: 6f642d5c4e70fa249baf37d41a53e8a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3free2
+    second: {fileID: 2800000, guid: 6eeb97fdf1f25a641a6457120bf2ef49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3grass4
+    second: {fileID: 2800000, guid: eaf12fecc5e177b4c926ad6e7670356d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3mail1
+    second: {fileID: 2800000, guid: b7391e452b2a0ff4aaa1db7e6de73412, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3pave2
+    second: {fileID: 2800000, guid: 8fdea74ac2ea4d547837f04c412c7701, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3pave5
+    second: {fileID: 2800000, guid: 84d857ceba8226d478adef0ddd1b565a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3road3
+    second: {fileID: 2800000, guid: ce83b253998e6d041b02454daba59d1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: u3white
+    second: {fileID: 2800000, guid: 3991235206bba9846a9feffdce36d02f, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
