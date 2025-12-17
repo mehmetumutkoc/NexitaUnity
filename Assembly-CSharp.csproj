@@ -51,23 +51,30 @@
     <Analyzer Include="C:\Users\mehme\Documents\GitHub\Nexita3DUnity\Library\PackageCache\com.unity.dt.app-ui@8ac7e730dd5d\Runtime\MVVM\SourceGenerators\netstandard2.0\MVVMSourceGenerators.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\StaticOptimizer.cs" />
-    <Compile Include="Assets\Scripts\Unit.cs" />
+    <Compile Include="Assets\Scripts\Camera\Core\CameraEvents.cs" />
+    <Compile Include="Assets\Scripts\Camera\Modes\AttractionController.cs" />
     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\evelator_controll.cs" />
+    <Compile Include="Assets\Scripts\Camera\Behaviors\MovementBehavior.cs" />
+    <Compile Include="Assets\Scripts\Rendering\StaticOptimizer.cs" />
+    <Compile Include="Assets\Scripts\Camera\ModularCameraController.cs" />
     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\Door.cs" />
-    <Compile Include="Assets\SimpleFPSController.cs" />
+    <Compile Include="Assets\Scripts\Camera\Behaviors\MouseLookBehavior.cs" />
     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\pass_on_parent.cs" />
-    <Compile Include="Assets\Scripts\ApartmentFocusController.cs" />
+    <Compile Include="Assets\Scripts\Camera\Behaviors\DollyBehavior.cs" />
+    <Compile Include="Assets\Scripts\Camera\Core\ICameraMode.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\RealisticRenderingManager.cs" />
-    <Compile Include="Assets\Scripts\BuildingFocusController.cs" />
-    <Compile Include="Assets\Scripts\AttractionController.cs" />
-    <Compile Include="Assets\Scripts\DeleteCollider.cs" />
+    <Compile Include="Assets\Scripts\Camera\Modes\FPSCameraMode.cs" />
+    <Compile Include="Assets\Scripts\Utilities\DeleteCollider.cs" />
+    <Compile Include="Assets\Scripts\Camera\Modes\BuildingCameraMode.cs" />
+    <Compile Include="Assets\Scripts\Rendering\RealisticRenderingManager.cs" />
+    <Compile Include="Assets\Scripts\Camera\Core\CameraModeConfig.cs" />
+    <Compile Include="Assets\Scripts\Building\Unit.cs" />
+    <Compile Include="Assets\Scripts\Camera\Core\ICameraBehavior.cs" />
+    <Compile Include="Assets\Scripts\Building\BuildingFocusController.cs" />
     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\DoorAction.cs" />
-    <Compile Include="Assets\DollyCamControl.cs" />
-    <Compile Include="Assets\Scripts\SceneController.cs" />
+    <Compile Include="Assets\Scripts\Camera\Modes\DollyCameraMode.cs" />
+    <Compile Include="Assets\Scripts\Camera\Core\BaseCameraMode.cs" />
     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\Fix_elevator_fall.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
