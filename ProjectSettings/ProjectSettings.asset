@@ -920,7 +920,13 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -942,11 +948,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 08ad66f5-48b2-4557-bd98-416b5c6ec1a8
+  cloudProjectId: 0c82f6a2-c202-4a71-ba03-3addac795414
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Nexita3DUnity
-  organizationId: mehmetandkoc
+  organizationId: mehmetkocis
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
