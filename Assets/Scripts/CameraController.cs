@@ -15,7 +15,8 @@ public class CameraController : MonoBehaviour
         UnitFocus,     // Unit'e odaklı
         UnitInterior,  // Unit içi
         Dolly,         // Spline animasyonu
-        FPS            // Serbest hareket
+        FPS,           // Serbest hareket
+        FreeLook       // Serbest bakış (Free Look)
     }
 
     [Header("Cameras")]
@@ -33,6 +34,9 @@ public class CameraController : MonoBehaviour
     
     [Tooltip("FPS kamerası")]
     public CinemachineCamera fpsCamera;
+    
+    [Tooltip("FreeLook kamerası")]
+    public CinemachineCamera freeLookCamera;
 
     [Header("Controllers")]
     [Tooltip("BuildingFocusController referansı")]
@@ -43,6 +47,9 @@ public class CameraController : MonoBehaviour
     
     [Tooltip("SimpleFPSController referansı")]
     public SimpleFPSController fpsController;
+    
+    [Tooltip("FreeLookCameraController referansı")]
+    public FreeLookCameraController freeLookController;
 
     [Header("Camera Brain")]
     public CinemachineBrain brain;
@@ -98,6 +105,11 @@ public class CameraController : MonoBehaviour
         else if (Keyboard.current.digit3Key.wasPressedThisFrame)
         {
             SetMode(CameraMode.FPS);
+        }
+        // 4 - FreeLook Mode
+        else if (Keyboard.current.digit4Key.wasPressedThisFrame)
+        {
+            SetMode(CameraMode.FreeLook);
         }
         // Escape - Building'e dön
         else if (Keyboard.current.escapeKey.wasPressedThisFrame)
@@ -155,6 +167,9 @@ public class CameraController : MonoBehaviour
             case CameraMode.FPS:
                 ActivateFPSMode();
                 break;
+            case CameraMode.FreeLook:
+                ActivateFreeLookMode();
+                break;
         }
 
         Debug.Log($"[CameraController] Mode changed to: {mode}");
@@ -166,6 +181,12 @@ public class CameraController : MonoBehaviour
         if (currentMode == CameraMode.FPS && fpsController != null)
         {
             fpsController.DeactivateFPS();
+        }
+        
+        // FreeLook modundan çıkış
+        if (currentMode == CameraMode.FreeLook && freeLookController != null)
+        {
+            freeLookController.Deactivate();
         }
 
         // Mouse'u serbest bırak
@@ -180,6 +201,7 @@ public class CameraController : MonoBehaviour
         if (unitInteriorCamera != null) unitInteriorCamera.Priority = priority;
         if (dollyCamera != null) dollyCamera.Priority = priority;
         if (fpsCamera != null) fpsCamera.Priority = priority;
+        if (freeLookCamera != null) freeLookCamera.Priority = priority;
     }
 
     void ActivateBuildingMode()
@@ -222,6 +244,17 @@ public class CameraController : MonoBehaviour
         if (fpsController != null)
         {
             fpsController.ActivateFPS();
+        }
+    }
+
+    void ActivateFreeLookMode()
+    {
+        if (freeLookCamera != null)
+            freeLookCamera.Priority = activePriority;
+        
+        if (freeLookController != null)
+        {
+            freeLookController.Activate();
         }
     }
 
