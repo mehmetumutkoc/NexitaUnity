@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Unity.Cinemachine;
+using System;
 
 /// <summary>
 /// Merkezi bina focus kontrolcüsü.
@@ -57,6 +58,11 @@ public class BuildingFocusController : MonoBehaviour
 
     public FocusMode CurrentMode => currentMode;
     public Unit SelectedUnit => selectedUnit;
+
+    /// <summary>
+    /// Focus modu değiştiğinde tetiklenir
+    /// </summary>
+    public event Action<FocusMode> OnModeChanged;
 
     void Start()
     {
@@ -322,6 +328,9 @@ public class BuildingFocusController : MonoBehaviour
         }
 
         Debug.Log($"[BuildingFocusController] Mode: {mode}");
+        
+        // Event'i tetikle
+        OnModeChanged?.Invoke(mode);
     }
 
     void OnValidate()
